@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--根节点标签-->
+<infos>
+    <!--习题第一题-->
+    <exercises id="1">
+        <!--题干-->
+        <subject>1、下列哪些语句关于内存回收的说明是正确的() </subject>
+        <!--选项abcd-->
+        <a>程序员必须创建一个线程来释放内存</a>
+        <b>内存回收程序负责释放无用内存</b>
+        <c>内存回收程序允许程序员直接释放内存</c>
+        <d>内存回收程序可以在指定的时间释放内存对象</d>
+        <!--正确选项-->
+        <answer>2</answer>
+    </exercises>
+
+    <exercises id="2">
+        <!--题干-->
+        <subject>2、下面异常不是属于RuntimeException 的是() </subject>
+        <!--选项abcd-->
+        <a>ArithmeticException</a>
+        <b>IllegalArgumentException</b>
+        <c>NullPointerException</c>
+        <d>BufferUnderflowException</d>
+        <!--正确选项-->
+        <answer>4</answer>
+    </exercises>
+    <exercises id="3">
+    <!--题干-->
+    <subject> 3、Math.round(11.5)等于多少(). Math.round(-11.5)等于多少() </subject>
+    <!--选项abcd-->
+    <a>11 ,-11</a>
+    <b>11 ,-12 </b>
+    <c>12 ,-11</c>
+    <d>12 ,-12</d>
+    <!--正确选项-->
+    <answer>3</answer>
+</exercises>
+    <exercises id="4">
+    <!--题干-->
+        <subject>4、对一些资源以及状态的操作保存，最好是保存在生命周期的哪个函数中进行()</subject>
+
+        <a>onPause()</a>
+
+        <b>onCreate()</b>
+
+        <c>onResume()</c>
+
+        <d>onStart()</d>
+
+        <answer>4</answer>
+</exercises>
+    <exercises id="5">
+        <!--题干-->
+        <subject>5、android中下列属于Intent的作用的是()</subject>
+
+        <a>实现应用程序间的数据共享</a>
+
+        <b>是一段长的生命周期，没有用户界面的程序，可以保持应用在后台运行，而不会因为切换页面而消失</b>
+
+        <c>可以实现界面间的切换，可以包含动作和动作数据，连接四大组件的纽带</c>
+
+        <d>处理一个应用程序整体性的工作</d>
+
+        <answer>3</answer>
+    </exercises>
+
+
+
+</infos>

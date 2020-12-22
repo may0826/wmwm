@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.example.boxuegu.AboutActivity">
+    <include layout="@layout/main_title_bar"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="坚守“正道成功”的价值取向，坚定地践行用合法方式获得商业成功。自创立之初，京东就秉持诚信经营的核心理念，坚守正品行货、倡导品质经济，成为中国备受消费者信赖的零售平台；京东坚定“客户为先”的服务理念，大力发展自建物流，保障用户体验，成为领先全球的新标杆；依托于所有京东人的拼搏和激情，京东持续十六年保持超过110%的年均复合增长率。京东以丰富的应用场景和精准的大数据为根基，创新性地在数字科技等领域大胆探索，一次又一次地创造了发展奇迹！
+不忘初心，积极履行企业社会责任，供应链整合能力，京东大幅提升了行业运营效率，降低了社会成本。通过打造高质量消费，京东以商品和服务为抓手、以技术创新为依托，带动实体经济数字化转型，促进产业和消费“双升级”，进一步助力供给侧结构性改革，推动中国经济高质量发展。京东充分发挥自身优势，整合内外资源，与政府、媒体和公益组织协同创新，为用户、合作伙伴、员工、环境、社会创造价值。"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+
+</LinearLayout>

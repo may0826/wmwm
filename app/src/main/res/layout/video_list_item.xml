@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    tools:context="com.example.boxuegu.ChangeUserInfoActivity">
+    <ImageView
+        android:id="@+id/iv_left_icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/course_bar_icon"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@+id/tv_video_title"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:text="[第一节]Android系统简介"
+        android:textColor="#333333"
+        android:textSize="18sp"/>
+
+
+
+
+</LinearLayout>
